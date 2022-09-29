@@ -1,0 +1,99 @@
+.decorativa_productos {
+    height: 300px;
+    background-image: url(../assets/img/sli4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.seccion_productos {
+    background-color: white;
+    height: auto;
+}
+
+
+.seccion_productos h2 {
+    font-family: pacifico, 'Lucida Sans';
+    color: black;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.seccion_productos_articulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+//aca estaba tarjeta zapato, lo lleve a _cards.scss
+
+.invisible {
+    background-image: url(../assets/img/dor1_hover.jpg);
+    opacity: 0;
+}
+
+.invi {
+    width: 100%;
+    height: 100%;
+}
+
+.invi img:last-child {
+    display: none;
+}
+
+.invi:hover img:last-child {
+    display: block;
+}
+
+.invi:hover img:first-child {
+    display: none;
+}
+
+
+
+/* BANNER TARJETA */
+
+.banner_tarjeta {
+    height: 100px;
+    margin: 10px;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0; */
+}
+
+.credito {
+    animation-name: posicion-medio;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.tarjeta_banner {
+    padding: 10px;
+}
+
+.tarjeta_banner p {
+    text-align: center;
+}
+
+@keyframes posicion-medio {
+    0% {
+        transform: translateX(400%);
+    }
+
+    33% {
+        transform: translateX(0%);
+    }
+
+    66% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-400%);
+    }
+}

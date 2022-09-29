@@ -1,0 +1,98 @@
+
+// tarjetas HOME "FABRICACION DEL PRODUCTO"
+.tarjeta {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(199, 198, 198);
+    background-color: whitesmoke;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.tarjeta p {
+    padding: 5px;
+}
+
+.tarjeta h3 {
+    font-family: pacifico, 'Lucida Sans';
+    font-weight: 100;
+    border-bottom: solid;
+    font-size: 1.2rem;
+}
+
+
+// tarjeta HOME "Ultimos Diseños"
+// recorda que el estilo del contenedor esta en "_home.scss"
+.tarjeta_img {
+    background-color: white;
+    width: 200px;
+    height: 220px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+    text-align: center;
+
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+
+
+.tarjeta_img img {
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.tarjeta_img h3 {
+    font-size: 1.5rem;
+}
+
+.tarjeta_img img:hover {
+    transform: scale(1.4);
+    transition: all 1s ease;
+}
+
+
+
+//tarjeta zapatos seccion PRODUCTOS
+
+.tarjeta_zapato {
+    /* width: 250px;
+    height: 350px; */
+    width: 230px;
+    height: 330px;
+    border: 2px none black;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+    /* background: linear-gradient(0deg, rgba(255,231,170,1) 0%, rgba(255,255,255,1) 31%, rgba(245,245,245,1) 100%);  */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.tarjeta_zapato img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.tarjeta_zapato h3{
+    margin: 0;
+}
+
+.tarjeta_zapato p {
+    margin: 0;
+    padding: 3px;
+}
+
