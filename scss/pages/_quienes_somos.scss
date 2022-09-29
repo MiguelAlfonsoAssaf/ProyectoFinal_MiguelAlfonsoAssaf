@@ -1,0 +1,60 @@
+.quienes_somos {
+    /* height: 400px; */
+    background-image: url(../assets/img/fondo_quienes_somos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.quienes_somos h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: pacifico, 'Lucida Sans';
+    font-size: 3rem;
+
+}
+
+.quienes_somos article {
+    width: 60%;
+    margin: 0 auto;
+    font-weight: bold;
+    color: whitesmoke;
+    backdrop-filter: brightness(60%);
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+.seccion_videos .tammax {
+    max-width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+
+.seccion_videos h2 {
+    width: 50%;
+    text-align: center;
+    font-family: pacifico, 'Lucida Sans';
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(197, 137, 97);
+    color: whitesmoke;
+}
+
+
+
+.iframe_flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+}
