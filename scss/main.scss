@@ -1,0 +1,21 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+
+@import "./base/reset";
+@import "./base/typo";
+@import "./base/animations";
+
+
+@import "./layout/footer";
+@import "./layout/header";
+
+@import "./components/botones";
+@import "./components/cards";
+
+@import "./pages/contactos";
+@import "./pages/home";
+@import "./pages/preguntas_frecuentes";
+@import "./pages/productos";
+@import "./pages/quienes_somos";
+
+
