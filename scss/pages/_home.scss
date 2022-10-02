@@ -34,9 +34,14 @@
 //tarjeta de ULTIMOS DISEÑOS
 
 .ultimos_productos{
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 36%, rgb(209, 167, 99) 75%, rgb(209, 167, 99) 100%);
+    // background: linear-gradient(0deg, rgba(255, 255, 255, 1) 36%, rgb(209, 167, 99) 75%, rgb(209, 167, 99) 100%);
 }
 
+@media (min-width: 768px) {
+    .ultimos_productos {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 36%, rgb(209, 167, 99) 75%, rgb(209, 167, 99) 100%);
+    }
+}
 .ultimos_productos h2 {
     background-color: #EFEFEF;
     text-align: center;
@@ -45,7 +50,8 @@
 
 .color-fondo-tarjetas{
 
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 36%, rgb(209, 167, 99) 75%, rgb(209, 167, 99) 100%);
+    // background: linear-gradient(0deg, rgba(255, 255, 255, 1) 36%, rgb(209, 167, 99) 75%, rgb(209, 167, 99) 100%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgb(209, 167, 99) 100%);
     min-height: 400px;
     text-align: center;
     margin: 10px 2px 10px 2px;
