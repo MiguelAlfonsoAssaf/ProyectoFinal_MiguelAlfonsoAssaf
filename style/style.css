@@ -171,7 +171,7 @@ footer img {
 
 .fondo-foto {
   height: 500px;
-  background-image: url(../../assets/img/zapa_contactos.jpg);
+  background-image: url(../assets/img/zapa_contactos.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -317,7 +317,7 @@ hr {
 
 .preguntas_frecuentes {
   /* height: 400px; */
-  background-image: url(../../assets/img/fondo_quienes_somos.jpg);
+  background-image: url(../assets/img/fondo_quienes_somos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
