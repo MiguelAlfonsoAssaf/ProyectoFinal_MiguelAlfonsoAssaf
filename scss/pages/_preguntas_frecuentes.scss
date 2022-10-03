@@ -3,32 +3,48 @@
     background-image: url(../assets/img/fondo_quienes_somos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: whitesmoke;
+    color: $respuesta;
     /* text-align:center; */ 
     padding-bottom: 40px;
-}
-
-
-
-.preguntas_frecuentes h2 {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-family: pacifico, 'Lucida Sans';
-    font-size: 3rem;
-    text-align: center;
-}
-
-.preguntas_frecuentes article {
-    width: 50%;
-    margin: 0 auto;
-    font-weight: bold;
-    color: whitesmoke;
-    backdrop-filter: brightness(60%);
-    border-radius: 15px;
-    margin-bottom: 100px;
-    text-align: center;
+    h2{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-family: pacifico, 'Lucida Sans';
+        font-size: 3rem;
+        text-align: center;
+    }
+    article{
+        width: 50%;
+        margin: 0 auto;
+        font-weight: bold;
+        color: $respuesta;
+        backdrop-filter: brightness(60%);
+        border-radius: 15px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
 }
 
 .pregunta {
-    color: rgb(244, 228, 111);
+    color: $pregunta;
 }
+
+// .preguntas_frecuentes h2 {
+//     padding-top: 40px;
+//     padding-bottom: 40px;
+//     font-family: pacifico, 'Lucida Sans';
+//     font-size: 3rem;
+//     text-align: center; 
+// }
+
+// .preguntas_frecuentes article {
+//     width: 50%;
+//     margin: 0 auto;
+//     font-weight: bold;
+//     color: whitesmoke;
+//     backdrop-filter: brightness(60%);
+//     border-radius: 15px;
+//     margin-bottom: 100px;
+//     text-align: center;
+// }
+

@@ -7,11 +7,16 @@
     padding: 5px 10px;
     border-radius: 20px;
     margin-bottom: 5px;
+    &:hover{
+        border: rgb(204, 146, 81) 2px solid;
+        background-color: antiquewhite;
+        color: rgb(215, 120, 24);
+    }
 }
 
 
-.tarjeta_zapato_boton:hover {
-    border: rgb(204, 146, 81) 2px solid;
-    background-color: antiquewhite;
-    color: rgb(215, 120, 24);
-}
+// .tarjeta_zapato_boton:hover {
+//     border: rgb(204, 146, 81) 2px solid;
+//     background-color: antiquewhite;
+//     color: rgb(215, 120, 24);
+// }

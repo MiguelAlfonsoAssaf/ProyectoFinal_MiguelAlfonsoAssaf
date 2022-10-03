@@ -1,54 +1,39 @@
 footer {
-    /* height: 200px; */
-    /* FONDO COLOR FOOTER */
-    background: linear-gradient(0deg, rgba(214, 214, 214, 1) 0%, rgba(255, 255, 255, 1) 100%);
-    /* background-color: #EFEFEF; */
+    background: $background-color-footer;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-
-}
-
-footer ul {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 1rem;
-    
-}
-
-footer a {
-    text-decoration: none;
-    color: black;
+    ul{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1rem;
+        li{
+            padding: 1px;
+            a{
+                transition: all 0.3s ease 0s;
+                &:hover{
+                    color: rgb(204, 146, 81);
+                }
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    img{
+        margin: 30px;
+        border-radius: 50%;
+        border: 1px solid rgb(210, 210, 210);
+        width: 120px;
+        height: 120px;
+    }
 }
 
 .red {
     text-align: left;
 }
-
-
-footer ul li {
-    padding: 1px;
-}
-
-footer li a {
-    transition: all 0.3s ease 0s;
-}
-
-footer li a:hover {
-
-    color: rgb(204, 146, 81);
-}
-
-footer img {
-    /* margin-top: 30px; */
-    margin: 30px;
-    border-radius: 50%;
-    border: 1px solid rgb(210, 210, 210);
-    width: 120px;
-    height: 120px;
-}
-
 
 .redes {
     display: flex;
@@ -56,3 +41,58 @@ footer img {
     justify-content: space-around;
     font-size: 1.2rem;
 }
+
+
+
+
+// footer {
+//     /* height: 200px; */
+//     /* FONDO COLOR FOOTER */
+//     background: linear-gradient(0deg, rgba(214, 214, 214, 1) 0%, rgba(255, 255, 255, 1) 100%);
+//     /* background-color: #EFEFEF; */
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-around;
+//     align-items: center;
+
+// }
+
+// footer ul {
+//     text-align: center;
+//     margin-top: 20px;
+//     font-size: 1rem;
+    
+// }
+
+// footer a {
+//     text-decoration: none;
+//     color: black;
+// }
+
+
+
+
+// footer ul li {
+//     padding: 1px;
+// }
+
+// footer li a {
+//     transition: all 0.3s ease 0s;
+// }
+
+// footer li a:hover {
+
+//     color: rgb(204, 146, 81);
+// }
+
+
+
+// footer img {
+//     /* margin-top: 30px; */
+//     margin: 30px;
+//     border-radius: 50%;
+//     border: 1px solid rgb(210, 210, 210);
+//     width: 120px;
+//     height: 120px;
+// }
+
