@@ -60,6 +60,11 @@ footer img {
   font-size: 1.1rem;
 }
 
+.navbar a {
+  color: rgb(121, 75, 15);
+  text-decoration: none;
+}
+
 .nav-link,
 .navbar-nav .nav-link.active {
   color: rgb(121, 75, 15);
@@ -107,6 +112,7 @@ footer img {
   font-weight: 100;
   border-bottom: solid;
   font-size: 1.2rem;
+  padding: 5px;
 }
 
 .tarjeta_img {
