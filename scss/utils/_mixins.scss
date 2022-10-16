@@ -6,4 +6,8 @@
     flex-wrap: $fwrap;
 }
 
-
+@mixin small-cards-sm{
+	@media(max-width: 576px){
+		@content
+		}
+}

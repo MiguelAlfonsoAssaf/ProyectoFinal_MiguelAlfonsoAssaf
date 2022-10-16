@@ -92,6 +92,13 @@ footer img {
   margin: 10px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
+@media (max-width: 576px) {
+  .tarjeta {
+    width: 300px;
+    height: 300px;
+    font-size: 1.4rem;
+  }
+}
 .tarjeta p {
   padding: 5px;
 }
@@ -117,8 +124,14 @@ footer img {
   text-align: center;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
+@media (max-width: 576px) {
+  .tarjeta_img {
+    width: 320px;
+    height: 350px;
+  }
+}
 .tarjeta_img img {
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 20px;
 }
 .tarjeta_img img:hover {
@@ -144,6 +157,12 @@ footer img {
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
+}
+@media (max-width: 576px) {
+  .tarjeta_zapato {
+    width: 330px;
+    height: 430px;
+  }
 }
 .tarjeta_zapato img {
   width: 100%;
