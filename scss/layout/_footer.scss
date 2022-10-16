@@ -1,9 +1,10 @@
 footer {
     background: $background-color-footer;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-around;
+    // align-items: center;
+    @include flexbox(row,space-around,center,wrap);
     ul{
         text-align: center;
         margin-top: 20px;
@@ -36,9 +37,10 @@ footer {
 }
 
 .redes {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-around;
+    @include flexbox(column,space-around);
     font-size: 1.2rem;
 }
 

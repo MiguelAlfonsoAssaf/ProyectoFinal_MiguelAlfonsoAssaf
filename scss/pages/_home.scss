@@ -67,10 +67,11 @@
 
 
 .contenedor_tarjeta_img {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // flex-wrap: wrap;
+    // align-items: center;
+    @include flexbox(row,center,center,wrap);
 }
 
 

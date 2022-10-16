@@ -66,9 +66,10 @@
     margin: 10px;
     background-color: whitesmoke;
     overflow-x: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    @include flexbox(row,center,center);
     /* margin: 0; */
 }
 
