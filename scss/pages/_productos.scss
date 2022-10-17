@@ -35,9 +35,10 @@
 // }
 
 .seccion_productos_articulos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-around;
+    @include flexbox(row,space-around,stretch,wrap);
 }
 
 //aca estaba tarjeta zapato, lo lleve a _cards.scss

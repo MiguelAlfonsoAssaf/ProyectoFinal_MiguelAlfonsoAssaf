@@ -404,8 +404,10 @@ hr {
 
 .seccion_productos_articulos {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 
 .invisible {
@@ -593,7 +595,9 @@ hr {
 
 .iframe_flex {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
+  align-items: stretch;
   flex-wrap: wrap;
 }
 
